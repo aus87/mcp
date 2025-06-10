@@ -9,7 +9,7 @@
   onMount(() => {
     rdtInstance = RadixDappToolkit({
       dAppDefinitionAddress: PUBLIC_DAPP_DEFINITION_ADDRESS,
-      networkId: RadixNetwork.Stokenet,
+      networkId: RadixNetwork.Mainnet, // Changed to Mainnet
       applicationName: 'MCP Portfolio Optimizer',
       applicationVersion: '1.0.0'
     });

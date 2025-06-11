@@ -1,7 +1,7 @@
 <!-- src/routes/+page.svelte -->
 <script lang="ts">
   import RDTConnect from '../components/RDTConnect.svelte';
-  import PortfolioOptimizerRTM from '../components/PortfolioOptimizerRTM.svelte';
+  import PortfolioOptimizerRTM from '../components/portfolioOptimizerRTM.svelte';
   import { account } from '$lib/stores/wallet';
 </script>
 

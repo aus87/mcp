@@ -24,7 +24,7 @@
     const options = [
       { name: 'ASTRL Staking', apy: astrlStakingAPY, type: 'astrl-stake' },
       { name: 'Validator Staking', apy: validatorAPY, type: 'validator' },
-      { name: 'DefiPlaza ASTRL/XRD LP', apy: defiPlazaAPY, type: 'defiplaza' }
+      { name: 'ASTRL/XRD LP', apy: defiPlazaAPY, type: 'defiplaza' }
     ];
     
     return options.reduce((best, current) => 
